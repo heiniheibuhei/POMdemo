@@ -27,6 +27,7 @@ class Action(unittest.TestCase):
             'noReset': 'false'
         }
         cls.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+        logging.info('start run app...')
 
     def tearDownClass(self):
         cls.driver.quit()
