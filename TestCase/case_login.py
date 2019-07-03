@@ -4,6 +4,7 @@
 
 import unittest
 from Page import LoginPage
+from Public.log import logger
 
 
 class CaseLogin(LoginPage.login, unittest.TestCase):
@@ -11,6 +12,7 @@ class CaseLogin(LoginPage.login, unittest.TestCase):
         """正常登录"""
         self.click_tao_button()
         self.assertTrue(self.login_success())
+        logger.info("验证通过！")
 
 
 if __name__ == '__main__':

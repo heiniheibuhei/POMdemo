@@ -9,7 +9,7 @@ class Action(unittest.TestCase):
     Base封装公共方法。drive、caps
     """
     def setUp(self):
-        print ("--------------开始执行用例------------------6")
+        print("--------------开始执行用例------------------6")
 
     def tearDown(self):
         print("--------------用例执行结束-----------------")
