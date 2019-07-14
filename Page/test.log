@@ -1,0 +1,2 @@
+2019-07-14 22:31:19,080 - urllib3.poolmanager - INFO - Redirecting http://127.0.0.1:4723/wd/hub/session -> http://127.0.0.1:4723/wd/hub/session/bb72aeed-bedc-4899-9ca0-800826c9a7ad
+2019-07-14 22:31:19,090 - root - INFO - --------start app ...----------
